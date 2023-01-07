@@ -26,7 +26,7 @@ If you like to help or consider this project useful, please donate. Thanks for y
 
 ## Technical characteristics
 
-* Measuring wind speed and wind direction
+* Measuring wind speed and wind direction 
 * Robust mechanics
 * Without special metal parts
 * All parts can be found in the hardware store
