@@ -297,6 +297,7 @@ void setup() {
 
 	// Starting access point for update server
 	WiFi.mode(WIFI_AP_STA);
+	WiFi.setSleepMode(WIFI_NONE_SLEEP);
 	WiFi.softAPConfig(ip, gateway, subnet);
 	WiFi.softAP(actconf.sssid, actconf.spassword, actconf.apchannel, false,
 			actconf.maxconnections);

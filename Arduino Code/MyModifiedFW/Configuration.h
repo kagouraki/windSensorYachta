@@ -4,14 +4,14 @@
 // Default configuration
 // Types 'byte' und 'word' doesn't work!
 typedef struct {
-  int valid = 1;                            // Number of configuration (Please change when the structure or values are changed)
+  int valid = 2;                            // Number of configuration (Please change when the structure or values are changed)
   int crypt = 0;                            // Activate for critical webside a password query [0 = off|1 = on]
   char password[31] = "12345678";           // Password for critical websides (settings, update and reboot)
   char devname[21] = "Windsensor";          // Device name for web configuration
   char crights[14] = "NoWa (C) 2021";       // Copy rights
-  char fversion[6] = "V1.14";               // Firmware version
+  char fversion[6] = "V1.15";               // Firmware version
   char license[12] = "GNU GPL V3";          // License type
-  int debug =2 ;                            // Debug mode 0=off 1=Errors 2=Errors + Warnings 3=Errors + Warnings + Messages
+  int debug =0 ;                            // Debug mode 0=off 1=Errors 2=Errors + Warnings 3=Errors + Warnings + Messages
   char cssid[31] = "WiFiClient";                // SSID of WiFi Client
   char cpassword[31] = "12345678";        // Password of WiFi Client
   int timeout = 30;                         // Connection timeout for client in [s] [30|90|120|150|180|210|240|270|300]
